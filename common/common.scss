@@ -1,0 +1,26 @@
+.onebox.twitterstatus .tweet {
+    padding-top: 10px;
+    margin-left: 0; 
+}
+aside.onebox .onebox-body .tweet-images {
+    padding-top: 8px;
+}
+/***** hide bad  things *****/
+[aria-label="Impersonate"] {
+    display: none;
+}
+.highlighted {
+    animation: none !important
+}
+[data-category-id="19"] {
+  display: none;
+}
+#bbv {
+	display: none;
+}
+.extra-info-wrapper .topic-link {
+    color: #f9f9f9;
+}
+.extra-info-wrapper .badge-wrapper .badge-category .category-name { /*category neame in header */
+    color: #f5f5f5 !important;
+}

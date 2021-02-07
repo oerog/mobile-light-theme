@@ -1,0 +1,12 @@
+@if $dark_theme == "true"  {
+    $post_border_color: #555;
+    $embedded_post_border_color: #888;
+} 
+.user-preferences-page #main.stripes .wrap {
+     padding-left: 15px !important;
+     padding-right: 15px !important;
+}
+#main.stripes  .topic-list-item td {
+    border-bottom: 1px $post_border_color solid !important;
+    border-top: none !important;
+}
